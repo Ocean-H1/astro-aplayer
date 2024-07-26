@@ -1,0 +1,23 @@
+---
+import APlayer from 'aplayer-ts'
+import type { APlayerOptions} from 'aplayer-ts'
+import 'aplayer-ts/src/css/base.css'
+
+export type Props = {
+  options?: APlayerOptions
+  server?: 'netease' | 'tencent' | 'kugou'
+}
+
+const {server} = Astro.props
+
+---
+<div class="astro-player">
+  <!-- <APlayer></APlayer> -->
+   <h1>This is a APlayer.</h1>
+</div>
+
+<style>
+
+</style>
+
+<script></script>

@@ -1,3 +1,9 @@
+# generated types
+.astro/
+
+# jetbrains setting folder
+.idea/
+
 # Logs
 logs
 *.log
